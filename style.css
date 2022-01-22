@@ -81,4 +81,33 @@ li{
     font-weight: 900;
     color: #1F2937;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.section2-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.photo-info{
+    max-width: 300px;
+}
+
+.info{
+
+}
+
+
+.subtext{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.illustration{
+    width: 240px;
+    height: 150px;
 }
