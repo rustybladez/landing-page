@@ -85,6 +85,11 @@ li{
     margin: 50px 0;
 }
 
+.section2{
+    height: 400px;
+}
+
+
 .section2-content{
     display: flex;
     justify-content: center;
@@ -94,10 +99,6 @@ li{
 
 .photo-info{
     max-width: 300px;
-}
-
-.info{
-
 }
 
 
@@ -111,3 +112,30 @@ li{
     width: 240px;
     height: 150px;
 }
+
+.section3{
+    background-color: #E5E7EB;
+    height: 350px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: 'Poppins', sans-serif;
+    padding: 200px;
+    
+}
+
+.client-name{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    font-style: normal;
+}
+
