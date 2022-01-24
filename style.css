@@ -3,8 +3,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-
+/* Top section begins */
 .top{
     background-color: #1F2937;
     height: 500px;
@@ -14,23 +15,21 @@
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    font-family: 'Poppins', sans-serif;
     line-height: 1.2;
 }
 
 .tagline {
     font-size: 18px;
     color: #E5E7EB;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 16px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    font-family: 'Poppins', sans-serif;
     margin-left: 200px;
     margin-top: 16px;
+    font-weight: bold;
 }
 
 ul {
@@ -48,7 +47,7 @@ ul {
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     
 }
 
@@ -59,7 +58,6 @@ img{
 li{
     font-size: 18px;
     color: #E5E7EB;
-    font-family: 'Poppins', sans-serif;
     margin-top: 16px;
     
 }
@@ -75,12 +73,11 @@ li{
     margin-left: 200px;
     margin-top: 100px;
 }
-
+/* Section 2 begins */
 .info{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin: 50px 0;
 }
@@ -104,7 +101,6 @@ li{
 
 .subtext{
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
@@ -112,22 +108,24 @@ li{
     width: 240px;
     height: 150px;
 }
+/* Section 3 begins */
 
 .section3{
     background-color: #E5E7EB;
-    height: 350px;
+    height: 300px;
     margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px;
 }
 
 .testimonial{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    font-family: 'Poppins', sans-serif;
-    padding: 200px;
+    line-height: 1.2;
+    max-width: 800px;
     
 }
 
@@ -139,3 +137,55 @@ li{
     font-style: normal;
 }
 
+/* Section 4 begins */
+
+.section4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.cta-text {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px 100px;
+    padding-right: 150px;
+    border-radius: 8px;
+
+}
+
+a.cta-signup{
+    text-decoration: none;
+    color: white;
+    background-color: #3882F6;
+    padding: 4px 32px;
+    border: 2px white solid;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.cta{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-subtext{
+    color: #E5E7EB;
+}
+
+.footer{
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
