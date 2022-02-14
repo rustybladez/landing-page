@@ -41,6 +41,15 @@ ul {
     margin-right: 125px;
 }
 
+a.nav-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn:hover{
+    color: rgb(128, 126, 126);
+}
+
 .signup {
     text-decoration: none;
     color: white;
@@ -48,7 +57,6 @@ ul {
     padding: 8px 32px;
     border-radius: 8px;
     font-weight: bold;
-    
 }
 
 img{
